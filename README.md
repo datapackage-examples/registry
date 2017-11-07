@@ -26,6 +26,11 @@ $ npm install
 
 ### Usage
 
+* Environmental variables
+
+`DOMAIN` - testing or production environment. For example: https://datahub.io
+`TYPE` - type of dataset. For example: examples or core
+
 ```
 node index.js [COMMAND] [PATH]
 # PATH - path to csv file
